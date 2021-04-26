@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kobra GUI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="eel.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" href="logo.ico" type="image/x-icon"/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<script>
+		alert("The author of the program is not responsible for your actions, do you agree?");
+
+	</script>
+   <header>
+       <img src="/img/logo.png" alt="logo">
+       <h1 class="title">Kobra</h1>
+   </header>
+   	<div class="values">
+   		<form action="#">
+    		<p>Phone number (With out +):</p>
+    		<input type="text" placeholder="Number" id="number">
+    		<input type="text" name="" id="delay" placeholder="seconds">
+    		<input type="text" id="cycle" placeholder="How many?">
+    		<input type="submit" value="START" id="btn" onclick="send()">
+    	</form>
+    </div>
+    	<script>
+    			async function send() {
+    				var number = document.getElementById('number').value;
+    				var delay = document.getElementById('delay').value;
+    				var cycle = document.getElementById('cycle').value;
+    				eel.smstart(number, cycle, delay);
+    			}
+
+    	</script>
+
+    <footer>
+    	<p>Author:DedSec77</p>
+    	<a href="https://github.com/DedSec77">Github</a>
+    </footer>
+</body>
+</html>
