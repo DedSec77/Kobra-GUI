@@ -4,13 +4,11 @@
 }
 
 body{
-	background-image: url("/img/background.jpg");
+	background-image: url("/img/background2.jpg");
 	background-size: cover;
 }
 
-header{
- display: flex;
-}
+
 
 img{
 	max-height: 50px;
@@ -20,7 +18,8 @@ img{
 }
 
 .title{
-	display: block;
+	/*display: block;*/
+	text-align: center;
 	font-family: 'Fredoka One', cursive;
 	color: white;
 }
@@ -28,7 +27,7 @@ img{
 .values{
 	margin: 100px auto;
 	text-align: center;
-	background-color: #000;
+	background-image: url("/img/form2.jpg");
 	width: 200px;
 	padding: 20px;
 	color: white;
@@ -52,8 +51,8 @@ img{
 
 #btn:hover{
 	color: #fff;
-	background-color: #FF0000;
-
+	background-color: #00ff00;
+	box-shadow: 0 0 50px #00ff00;
 }
 
 footer{
