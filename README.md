@@ -15,5 +15,6 @@ Windows: python Kobra.py
 
 Linux: python3 Kobra.py
 
-![image](https://user-images.githubusercontent.com/55799553/116133044-b3417600-a6e7-11eb-9c73-ff66f5161814.png)
+![image](https://user-images.githubusercontent.com/55799553/119230293-00710600-bb35-11eb-9dcb-7357605513f0.png)
+
 
