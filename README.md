@@ -7,7 +7,7 @@ You have to install Google Chrome on your pc
 
 Windows: install python <a href="https://www.python.org">here</a>,pip install -r requirements.txt
 
-Linux: chmod +x install.sh
+Linux: chmod +x install.sh, sh install.sh
 
 # How to run?
 
