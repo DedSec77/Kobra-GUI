@@ -4,10 +4,11 @@ This is update version Kobra (sms bomber)
 # Install
 
 You have to install Google Chrome on your pc
+<br/>
 
-Windows: install python <a href="https://www.python.org">here</a>,pip install -r requirements.txt
+Windows: install python <a href="https://www.python.org">here</a> <br/> pip install -r requirements.txt
 
-Linux: chmod +x install.sh, sh install.sh
+Linux: chmod +x install.sh <br/> sh install.sh
 
 # How to run?
 
